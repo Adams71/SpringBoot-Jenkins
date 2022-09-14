@@ -60,7 +60,7 @@ spring.datasource.password=<***your_database_password***>' > ./src/main/resource
 			mkdir -p /home/jenkins/appservice
 			echo '#!/bin/bash
 sudo java -jar /home/jenkins/Wars/project_war.war' > /home/jenkins/appservice/start.sh
-sudo chmod +x /home/jenkins/appservice/start.sh
+sudo chmod +x /home/jenkins/appservice/start.sh 
 echo '[Unit]
 Description=My SpringBoot App
 
