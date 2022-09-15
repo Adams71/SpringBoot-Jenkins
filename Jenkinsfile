@@ -5,6 +5,7 @@ pipeline {
 		gitRepo="https://github.com/Adams71/SpringBoot-Jenkins.git";
 		repoName="SpringBoot-Jenkins";
 		databaseIP="35.226.194.133";
+		
 	}
 	stages{
 		stage('Test Application'){
