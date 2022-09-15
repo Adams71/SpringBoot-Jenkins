@@ -2,7 +2,7 @@ pipeline {
 	agent any
 	environment {
 		appIP="10.132.0.7";
-		gitRepo="git@github.com:Adams71/SpringBoot-Jenkins.git";
+		gitRepo="https://github.com/Adams71/SpringBoot-Jenkins.git";
 		repoName="SpringBoot-Jenkins";
 		databaseIP="35.226.194.133";
 	}
