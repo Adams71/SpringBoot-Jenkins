@@ -4,7 +4,7 @@ pipeline {
 		appIP="104.199.91.164";
 		gitRepo="https://github.com/Adams71/SpringBoot-Jenkins.git";
 		repoName="SpringBoot-Jenkins";
-		databaseIP="35.226.194.133";
+		databaseIP="lbg7-20220905:us-central1:adam-db3";
 		
 	}
 	stages{
